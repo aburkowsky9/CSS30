@@ -180,7 +180,7 @@ button {
 
   .final__btn-3d-2:hover {
     background: #ecd300; /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%)); /* Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(hsl(54, 100%, 45%), hsl(56, 20%, 27%)); /* Safari 5.1 to 6.0 */
     background: -o-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%)); /* For Opera 11.6 to 12.0 */
     background: -moz-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%)); /* For Firefox 3.6 to 15 */
     background: radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%)); /* Standard syntax */
