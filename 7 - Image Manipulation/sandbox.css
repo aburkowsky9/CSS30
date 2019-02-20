@@ -3,3 +3,41 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+img:hover {
+    cursor: crosshair;
+}
+
+.sandbox img {
+    transition: filter 5s;
+}
+
+.grayscale {
+    filter: grayscale(1);
+}
+
+    .grayscale:hover {
+        filter: grayscale(0);
+    }
+
+.blur {
+    filter: blur(5px);
+}
+    .blur:hover {
+        filter: blur(0);
+    }
+
+.invert {
+    filter: invert(1);
+}
+    .invert:hover {
+        filter: invert(0);
+    }
+
+
+.sepia {
+    filter: sepia(1);
+}
+    .sepia:hover {
+        filter: sepia(0);
+    }
