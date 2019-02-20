@@ -1,0 +1,63 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+@media print {
+    *, *::before, *::after, body, p{
+        font-family: serif;
+        color: #000;
+        font-size: 16pt;
+        line-height: 24pt;
+    }
+    
+    body {
+        background: #fff;
+        margin: 0;
+    }
+
+    body::before,
+    .final-result::before,
+    .final-result h2,
+    .final-result::after,
+    .info::before,
+    .info h2,
+    .info::after,
+    #logo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 24pt;
+        line-height: 30pt;
+        margin: 0;
+        color: black;
+        text-shadow: none;
+        transform: none;
+    }
+
+    h1 small {
+        font-size: 16pt;
+        line-height: 24pt;
+    }
+
+    .final-result, .info, footer {
+        padding: 0;
+        margin: 0;
+        background: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .info p,
+    footer a:link,
+    footer a:visited {
+        color: black;
+    }
+
+    a::after {
+        content: " ["attr(href)"]"
+    }
+
+}
